@@ -1,6 +1,8 @@
 # code-server
 
-My code-server Docker image
+My code-server Docker image: a vanilla [codercom/code-server](https://hub.docker.com/r/codercom/code-server)
+image that comes with a few additional base packages, the latest Go, and
+pre-installed code-server extensions.
 
 ## Building
 
