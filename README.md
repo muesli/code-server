@@ -14,7 +14,7 @@ docker build -t code-server .
 
 ```bash
 docker run -it --rm \
-    -p 8080:8080 \
+    -p 127.0.0.1:8080:8080 \
     -e "PASSWORD=password" \
     -v `pwd`/home:/home/coder \
     code-server
@@ -34,3 +34,7 @@ services:
     environment:
       - PASSWORD=password
 ```
+
+## Using
+
+Go to http://localhost:8080.
