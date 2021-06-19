@@ -10,7 +10,7 @@ RUN wget -q -c "https://dl.google.com/go/$(curl https://golang.org/VERSION?m=tex
 ENV PATH="/usr/local/go/bin:${PATH}"
 
 # install code-server extensions
-RUN code-server --install-extension bceskavich.theme-dracula-at-night && \
-    code-server --install-extension golang.go && \
-    code-server --install-extension hediet.vscode-drawio && \
-    code-server --install-extension redhat.vscode-yaml
+#RUN code-server --install-extension bceskavich.theme-dracula-at-night && \
+#    code-server --install-extension golang.go && \
+#    code-server --install-extension hediet.vscode-drawio && \
+#    code-server --install-extension redhat.vscode-yaml
